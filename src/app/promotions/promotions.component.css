@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    color: rgb(255, 255, 255);
+    padding: 60px 20px 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) 0% 0% / cover, url(https://images.unsplash.com/photo-1506354666786-959d6d497f1a?fit=min&w=1920&h=800&q=60) center center no-repeat;
+}
+
+.inner {
+    text-align: center;
+    z-index: 1;
+}
